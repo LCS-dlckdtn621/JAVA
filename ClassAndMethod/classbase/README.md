@@ -1,0 +1,1 @@
+<img src="https://gitlab.com/easyspubjava/javacoursework/-/raw/master/Chapter2/2-03/img/stack.PNG" width = "500" height = "500>
