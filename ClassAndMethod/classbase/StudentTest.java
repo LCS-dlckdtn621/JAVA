@@ -22,6 +22,7 @@ public class StudentTest {
 
         System.out.println(studentKim);
         //해당 instance에 할당된 값이 heap-memory의 주소에 해당한다
+        //studentKim의 경우는 참조 변수, studentKim의 studentId와 같은 경우는 참조값에 해당한
         System.out.println(studentLee);
 
     }
