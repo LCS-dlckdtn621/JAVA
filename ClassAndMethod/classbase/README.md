@@ -2,3 +2,7 @@
 
 
 Stack Memory Allocation
+
+![instance 할당](https://gitlab.com/easyspubjava/javacoursework/-/raw/master/Chapter2/2-05/img/heap.PNG)
+
+Instance Dynamic Allocation
