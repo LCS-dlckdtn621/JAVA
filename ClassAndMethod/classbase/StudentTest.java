@@ -20,5 +20,9 @@ public class StudentTest {
 
         studentKim.showStudentInfo();
 
+        System.out.println(studentKim);
+        //해당 instance에 할당된 값이 heap-memory의 주소에 해당한다
+        System.out.println(studentLee);
+
     }
 }
