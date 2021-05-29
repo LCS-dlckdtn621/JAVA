@@ -27,5 +27,5 @@
     
     }
 
-![메소드 위치 관련 내용](https://gitlab.com/easyspubjava/javacoursework/-/raw/master/Chapter3/3-05)
+![virtual method](https://gitlab.com/easyspubjava/javacoursework/-/raw/master/Chapter3/3-05/img/virtual.png)
 
