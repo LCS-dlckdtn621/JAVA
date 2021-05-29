@@ -15,7 +15,7 @@ public class Book {
     }
 
     public String showInfo(){
-        return title+" 는 "+author+"가 집필하였습니다.";
+        return title+"는 "+author+"가 집필하였습니다.";
     }
 
 }
