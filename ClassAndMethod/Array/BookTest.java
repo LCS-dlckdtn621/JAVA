@@ -13,7 +13,9 @@ public class BookTest {
         library[3] = new Book("태백산맥4", "조정래");
         library[4] = new Book("태백산맥5", "조정래");
 
-        System.arraycopy(library, 0, copyLibrary, 0, 5);
+        for(int i=0; i<copyLibrary.length; i++){
+            copyLibrary[i] = new Book();
+        }
 
         for(Book book : library){
             System.out.println(book.showInfo());
