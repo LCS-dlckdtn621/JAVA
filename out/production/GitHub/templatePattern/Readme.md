@@ -1,0 +1,1 @@
+- method/class에 final들어가면 override/상속 불가
