@@ -1,0 +1,1 @@
+- Upcasting 하게 되면 개별 overiding된 method는 그냥 쓸 수 있지만 각자의 method는 사용하지 못한다.
