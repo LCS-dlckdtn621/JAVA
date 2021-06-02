@@ -37,7 +37,6 @@ public class AnimalTest {
                 eagle.flying();
             }
         }
-
     }
 
     public void moveAnimal(Animal animal){
