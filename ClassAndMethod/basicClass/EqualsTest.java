@@ -1,7 +1,7 @@
 package basicClass;
 
 public class EqualsTest {
-    public static void main(String[] args){
+    public static void main(String[] args) throws CloneNotSupportedException {
         Student std1 = new Student(100, "lee");
         Student std2 = new Student(100, "lee");
 
@@ -18,6 +18,9 @@ public class EqualsTest {
 
         System.out.println(System.identityHashCode(std1));
         System.out.println(System.identityHashCode(std2));
+
+        Student copyStudent = (Student) std1.clone();
+        System.out.println(copyStudent.toString());
     }
 
 }

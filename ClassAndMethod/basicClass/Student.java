@@ -1,6 +1,6 @@
 package basicClass;
 
-public class Student {
+public class Student implements Cloneable{
     private int studentNum;
     private String studentName;
 
@@ -26,5 +26,10 @@ public class Student {
 
     public int hashCode(){
         return studentNum;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException{
+        return super.clone();
     }
 }
