@@ -9,7 +9,7 @@ public class OuterClass {
 
         int num = 10;
 
-        class MyRunnable implements Runnable{
+        return new Runnable(){
             int localNum = 1000;
             @Override
             public void run() {
@@ -21,8 +21,7 @@ public class OuterClass {
                 System.out.println("outNum = " + outNum + "(외부 클래스 인스턴스 변수)");
                 System.out.println("Outter.sNum = " + OuterClass.sNum + "(외부 클래스 static 변수)");
             }
-        }
-        return new MyRunnable();
+        };
+        // 바로 때려버리기 -> 이게 anonymous
     }
-
 }
