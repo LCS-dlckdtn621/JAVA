@@ -1,3 +1,4 @@
 - 직렬화는 객체를 저장해주려고 그러는 거야 ... 파일화로!
 - 직렬화 할 수 없는 멤버가 있으면 transient로 except해주면 된다
 - externalize로 직접 구현도 가능
+- 각 객체(예를 들면 String Class)는 대부분 Serializable implement 되어 있어서 사용 가능
