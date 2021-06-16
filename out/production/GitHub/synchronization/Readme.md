@@ -1,0 +1,1 @@
+- synchronized는 shared resource 침해와 관련된 내용들이다
